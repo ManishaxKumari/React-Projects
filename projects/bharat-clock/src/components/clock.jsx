@@ -1,5 +1,7 @@
 function Clock() {
-  let clock = date();
-  return <p>this is the current time : {}</p>;
+    
+    let time = new Date();
+ 
+  return <p>this is the current time : {time.toLocaleTimeString()}-{time.toLocaleDateString()}</p>;
 }
 export default Clock;

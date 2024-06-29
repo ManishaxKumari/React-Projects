@@ -4,12 +4,12 @@ import Content from "./components/content";
 import Clock from "./components/clock";
 
 function App() {
-  return (
-    <div className="text-center">
+  
+    return <div className="text-center">
       <NameHeader></NameHeader>
       <Content></Content>
       <Clock></Clock>
     </div>
-  );
+  
 }
 export default App;
