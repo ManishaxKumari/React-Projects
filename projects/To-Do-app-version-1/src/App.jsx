@@ -1,8 +1,16 @@
-function App(){
+import AppName from "./components/AppName";
+import AddToDo from "./components/AddToDo";
+import ToDoItem from "./components/ToDo_item";
 
-  return <center class='todo-container'>
-    <h1>TO-DO-APP</h1>
-  </center>
+function App() {
+  return (
+    <center class="todo-container">
+      <AppName />
+      <AddToDo />
+      <ToDoItem />
+      <ToDoItem />
+    </center>
+  );
 }
 
-export default App
+export default App;
