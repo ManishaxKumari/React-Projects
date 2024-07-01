@@ -6,7 +6,7 @@ function App() {
   let fooditems=["Dal","sabji","golgappa","carrot","allu"];
   return (
   <>
-    <h1>healthy food</h1>
+    <h1 className="heading">healthy food</h1>
     <Error items={fooditems}></Error>
     <FoodItem items={fooditems}></FoodItem>
       
