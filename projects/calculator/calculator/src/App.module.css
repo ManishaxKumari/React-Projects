@@ -6,21 +6,6 @@
 
 }
 
-.display{
-    margin: 10px;
-    width: 175px;
-    height: 35px;
-    font-size: 35px;
 
-}
 
-.buttonsContainer{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.button{
-    width:45px;
-    height: 45px;
-    margin: 5px;
-}
+
