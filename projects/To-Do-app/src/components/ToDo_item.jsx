@@ -1,10 +1,5 @@
-function ToDoItem() {
-
-  let TodoName='Buy milk';
-  let TodoDate='12/10/24';
-
-  
-  return (
+function ToDoItem({TodoName,TodoDate}) {
+return (
     <div class="container">
       <div class="row newrow">
         <div class="col-6">{TodoName}</div>
